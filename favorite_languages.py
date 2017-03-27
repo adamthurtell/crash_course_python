@@ -62,3 +62,13 @@ for language in favorite_languages.values():
 print("\nThe following languages have been mentioned:")
 for language in set(favorite_languages.values()):
     print(language.title())
+
+print("\n")
+
+poll_candidates = ['erin', 'sarah', 'bob', 'jebediah']
+
+for candidate in poll_candidates:
+    if candidate not in favorite_languages.keys():
+        print(candidate.title() + " you should take our poll!")
+    elif candidate in favorite_languages.keys():
+        print(candidate.title() + " thank you for taking our poll!")

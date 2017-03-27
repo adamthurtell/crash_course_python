@@ -18,3 +18,7 @@ for k, v in sorted(python_glossary0.items()):
 
 python_glossary0['git'] = 'def of git'
 print(python_glossary0)
+
+for k, v in sorted(python_glossary0.items()):
+    print("\n" + k.title() + ":")
+    print(v)
