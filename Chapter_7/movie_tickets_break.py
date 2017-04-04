@@ -1,12 +1,11 @@
 prompt = "\nWhat is your age?"
 prompt += "\nEnter 'quit' any time to stop. "
 
-active = True
-while active:
+while True:
     age = input(prompt)
 
     if age == 'quit':
-        active = False
+        break
     else:
         age = int(age)
 
