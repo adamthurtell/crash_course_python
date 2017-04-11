@@ -13,8 +13,12 @@ def make_great(magicians, great_magicians):
         great_magicians.append(great_magician)
 
 magicians = ['David Copperfield', 'David Blaine', 'Houdini']
+poopheads = ['poophead1', 'poophead2', 'poophead3']
 great_magicians = []
+great_poopheads = []
 show_magicians(magicians)
 make_great(magicians[:], great_magicians)
 show_magicians(great_magicians)
 show_magicians(magicians)
+make_great(poopheads, great_poopheads)
+show_magicians(great_poopheads)
